@@ -1,0 +1,11 @@
+{
+  "pleats": ["a","b","or1_out","and1_out","not1_out","sum","carry"],
+  "gadgets": [
+    {"type": "OR", "id": "g_or", "inputs": ["a","b"], "outputs": ["or1_out"]},
+    {"type": "AND", "id": "g_and", "inputs": ["a","b"], "outputs": ["and1_out"]},
+    {"type": "NOT", "id": "g_not", "inputs": ["and1_out"], "outputs": ["not1_out"]},
+    {"type": "AND", "id": "g_and2", "inputs": ["or1_out","not1_out"], "outputs": ["sum"]},
+    {"type": "AND", "id": "g_carry", "inputs": ["a","b"], "outputs": ["carry"]}
+  ],
+  "inputs": {"a": true, "b": false}
+}
