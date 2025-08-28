@@ -12,11 +12,6 @@ class Gadget:
         raise NotImplementedError
 
     def evaluate(self, inputs: List[Optional[bool]]) -> List[Optional[bool]]:
-        """
-        Recibe lista de valores de entrada (orden correspondiente a input_names)
-        Devuelve lista de valores de salida (orden correspondiente a output_names)
-        Política: si alguna entrada es None -> devolver lista de None (propagación)
-        """
         raise NotImplementedError
 
     def __repr__(self):
