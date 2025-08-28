@@ -1,6 +1,6 @@
-# Implementación de computación con origame
+# Implementación de computación con origami
 
-Programa que implementa una simulación de la computación mediante el origame.
+Programa que implementa una simulación de la computación mediante el origami
 
 ## **Pruebas unitarias**
 Para ejecutar las pruebas unitarias usar el comando 
